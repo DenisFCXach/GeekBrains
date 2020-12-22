@@ -1,0 +1,6 @@
+b = []
+a = [int(input()) for i in range(int(input()))]
+for i in range(len(a)):
+    if a[i] > a[i - 1]:
+        b.append(a[i])
+print(b)
